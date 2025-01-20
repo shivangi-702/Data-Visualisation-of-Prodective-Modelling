@@ -9,12 +9,6 @@ Key messages include identifying sentiment shifts, uncovering prominent themes, 
 ## Instructions to Run the Code
 ### Install Required Libraries
 Ensure the following R libraries are installed before running the code:
-install.packages("ggplot2")
-install.packages("dplyr")
-install.packages("lubridate")
-install.packages("tidyverse")
-install.packages("tm")
-install.packages("wordcloud")
-install.packages("RColorBrewer")
+install.packages(c("ggplot2", "dplyr", "lubridate", "tidyverse", "tm", "wordcloud", "RColorBrewer"))
 
 Execute the Visualisation_code.r file to generate the sentiment trend charts and plots
